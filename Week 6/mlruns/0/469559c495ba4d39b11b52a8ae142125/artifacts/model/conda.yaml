@@ -1,0 +1,19 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.10.12
+- pip<=23.1.2
+- pip:
+  - mlflow==2.14.2
+  - astunparse==1.6.3
+  - cloudpickle==2.2.1
+  - numba==0.58.1
+  - pandas==2.0.3
+  - pathlib==1.0.1
+  - psutil==5.9.5
+  - pydot==1.4.2
+  - scipy==1.11.4
+  - torch-geometric==2.5.3
+  - torch==2.3.0
+  - transformers==4.41.2
+name: mlflow-env
